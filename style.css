@@ -1,0 +1,38 @@
+html{
+    color: darkblue;
+    background-color: lightblue;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: darkblue;
+    background-color: lightblue;
+}
+
+.navbar {
+    box-shadow: 5px 20px 25px black;
+    padding-left: 10% !important;
+}
+
+.intro {
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    padding-top: 3%;
+    color: darkblue;
+    background-color: lightblue;
+}
+
+.watermark {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: text-bottom;
+    color: lightblue;
+    background-color: darkblue;
+    box-shadow: 5px 20px 25px black;
+}
