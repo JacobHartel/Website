@@ -1,9 +1,10 @@
 html{
-    font-family: unset;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-style: bold;
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: "Nanum Gothic Coding", monospace !important;
     margin: auto 0;
     padding: 0;
     text-align: center;
@@ -13,6 +14,15 @@ body{
 .navbar {
     box-shadow: 5px 20px 25px black;
     padding-left: 10% !important;
+    line-height: 1.5em !important;
+    font-style: bold!important;
+}
+
+.row {
+    margin-top: 2% !important;
+    text-align: center;
+    font-size: 1.7em;
+    
 }
 
 .intro {
@@ -24,12 +34,15 @@ body{
     
 }
 
+.intro h1{
+    margin-bottom: 10px;
+}
+
 .watermark {
     align-items: center;
     text-align: center;
     margin: 0 auto;
     margin-top: 5%;
-    
     box-shadow: 5px 20px 25px black;
-
+    justify-self: baseline;
 }
