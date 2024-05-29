@@ -124,7 +124,8 @@ body {
     text-align: left;
     white-space: wrap;
     margin-top: 25px;
-    color: rgb(120, 218, 28);
+    /* why isn't this working??? */
+    color: rgb(120, 218, 28); 
 }
 
 .bookList li{
