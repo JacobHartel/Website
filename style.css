@@ -1,6 +1,9 @@
 html {
     font-family: "Nanum Gothic Coding", monospace;
     font-style: bold;
+    background-color: rgb(7, 7, 68) !important;
+    
+    
 }
 
 body {
@@ -8,22 +11,34 @@ body {
     margin: auto 0;
     padding: 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    
     min-height: 100vh;
+    background-color: rgb(21,32,43,255) !important;
+    color: rgb(0,167,112,255) !important;
 
+
+}
+
+#nav{
+    background-color: rgb(21,32,43,255) !important;
+  
+}
+
+.list {
+    list-style: none;
 }
 
 .navbar {
-    background-color: beige !important;
-    box-shadow: 5px 10px 25px black;
+    box-shadow: 3px 5px 20px rgb(0,167,112,255);
     padding-left: 10% !important;
     line-height: 1.5em !important;
     font-style: bold !important;
+    background-color: rgb(7, 7, 68) !important;
+
 }
 
 .container-fluid{
-    background-color: rgb(182, 182, 163) !important;
+    background-color: rgb(0,167,112,255) !important;
     border-radius: 3px;
     box-shadow: 2px 2px 2px black;
 
@@ -40,7 +55,7 @@ body {
 .row img{
     width: 100px;
     height: auto;
-    box-shadow: 15px 15px 20px black;
+    box-shadow: 5px 10px 25px rgb(0,167,112,255);
     border-radius: 40px;
 }
 
@@ -49,7 +64,7 @@ body {
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    padding-top: 3%;
+    
 
 }
 
@@ -57,12 +72,50 @@ body {
     margin-bottom: 10px;
 }
 
+.headImage img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 25px rgb(0,167,112,255);
+}
+
+.dialogue {
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0,167,112,255);
+    
+
+}
+
+.dialogue a{
+    color:rgb(100,160,112,230) !important;
+    text-decoration: none !important;
+}
+
+.dialogue a:hover{
+    color:rgb(50,150,100,255) !important;
+    text-decoration: none !important;
+}
+
+
 .watermark {
     align-items: center;
     text-align: center;
     margin-top: 10vh;
     padding: 20px;
-    box-shadow: 5px 10px 25px black;
+    box-shadow: 3px 5px 20px rgb(0,167,112,255);;
     justify-self: baseline;
     line-height: 2em;
+    font-size: 1.6em;
 }
