@@ -108,6 +108,28 @@ body {
     text-decoration: none !important;
 }
 
+.intro a{
+    color:rgb(100,160,112,230) !important;
+    text-decoration: none !important;
+}
+
+.intro a:hover{
+    color:rgb(50,150,100,255) !important;
+    text-decoration: none !important;
+}
+
+.bookList {
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    white-space: wrap;
+    margin-top: 25px;
+    color: rgb(120, 218, 28);
+}
+
+.bookList li{
+    margin-bottom: 25px;
+}
 
 .watermark {
     align-items: center;
