@@ -3,7 +3,6 @@ html {
     font-style: bold;
     background-color: rgb(7, 7, 68) !important;
     
-    
 }
 
 body {
@@ -11,9 +10,8 @@ body {
     margin: auto 0;
     padding: 0;
     text-align: center;
-    
     min-height: 100vh;
-    background-color: rgb(21,32,43,255) !important;
+    background-color: rgb(187, 188, 203) !important;
     color: rgb(0,167,112,255) !important;
 
 
@@ -125,7 +123,7 @@ body {
     white-space: wrap;
     margin-top: 25px;
     /* why isn't this working??? */
-    color: rgb(120, 218, 28); 
+    color: rgb(55, 98, 16); 
 }
 
 .bookList li{
@@ -139,6 +137,7 @@ body {
     padding: 20px;
     box-shadow: 3px 5px 20px rgb(0,167,112,255);;
     justify-self: baseline;
+    background-color: rgb(21,32,43,255) !important;
     line-height: 2em;
     font-size: 1.6em;
 }
