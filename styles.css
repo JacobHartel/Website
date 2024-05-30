@@ -2,7 +2,6 @@ html {
     font-family: "Nanum Gothic Coding", monospace;
     font-style: bold;
     background-color: rgb(7, 7, 68) !important;
-    
 }
 
 body {
@@ -12,14 +11,12 @@ body {
     text-align: center;
     min-height: 100vh;
     background-color: rgb(187, 188, 203) !important;
-    color: rgb(0,167,112,255) !important;
-
-
+    color: rgb(0, 167, 112, 255) !important;
 }
 
-#nav{
-    background-color: rgb(21,32,43,255) !important;
-  
+#nav {
+    background-color: rgb(21, 32, 43, 255) !important;
+
 }
 
 .list {
@@ -27,7 +24,7 @@ body {
 }
 
 .navbar {
-    box-shadow: 3px 5px 20px rgb(0,167,112,255);
+    box-shadow: 3px 5px 20px rgb(0, 167, 112, 255);
     padding-left: 10% !important;
     line-height: 1.5em !important;
     font-style: bold !important;
@@ -35,8 +32,8 @@ body {
 
 }
 
-.container-fluid{
-    background-color: rgb(0,167,112,255) !important;
+.container-fluid {
+    background-color: rgb(0, 167, 112, 255) !important;
     border-radius: 3px;
     box-shadow: 2px 2px 2px black;
 
@@ -50,10 +47,10 @@ body {
 
 }
 
-.row img{
+.row img {
     width: 100px;
     height: auto;
-    box-shadow: 5px 10px 25px rgb(0,167,112,255);
+    box-shadow: 5px 10px 25px rgb(0, 167, 112, 255);
     border-radius: 40px;
 }
 
@@ -62,8 +59,6 @@ body {
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    
-
 }
 
 .intro h1 {
@@ -82,7 +77,7 @@ body {
     margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 20px;
-    box-shadow: 5px 10px 25px rgb(0,167,112,255);
+    box-shadow: 5px 10px 25px rgb(0, 167, 112, 255);
 }
 
 .dialogue {
@@ -91,29 +86,33 @@ body {
     margin-top: 5%;
     padding: 10px;
     text-align: center;
-    color: rgb(0,167,112,255);
-    
+    color: rgb(0, 167, 112, 255);
+
 
 }
 
-.dialogue a{
-    color:rgb(100,160,112,230) !important;
+.dialogue a {
+    color: rgb(100, 160, 112, 230) !important;
     text-decoration: none !important;
 }
 
-.dialogue a:hover{
-    color:rgb(50,150,100,255) !important;
+.dialogue a:hover {
+    color: rgb(50, 150, 100, 255) !important;
     text-decoration: none !important;
 }
 
-.intro a{
-    color:rgb(100,160,112,230) !important;
+.intro a {
+    color: rgb(100, 160, 112, 230) !important;
     text-decoration: none !important;
 }
 
-.intro a:hover{
-    color:rgb(50,150,100,255) !important;
+.intro a:hover {
+    color: rgb(50, 150, 100, 255) !important;
     text-decoration: none !important;
+}
+
+.intro h2 {
+    margin-top: 80px;
 }
 
 .bookList {
@@ -123,10 +122,10 @@ body {
     white-space: wrap;
     margin-top: 25px;
     /* why isn't this working??? */
-    color: rgb(55, 98, 16); 
+    color: rgb(55, 98, 16);
 }
 
-.bookList li{
+.bookList li {
     margin-bottom: 25px;
 }
 
@@ -135,9 +134,23 @@ body {
     text-align: center;
     margin-top: 10vh;
     padding: 20px;
-    box-shadow: 3px 5px 20px rgb(0,167,112,255);;
+    box-shadow: 3px 5px 20px rgb(0, 167, 112, 255);
+    ;
     justify-self: baseline;
-    background-color: rgb(21,32,43,255) !important;
+    background-color: rgb(21, 32, 43, 255) !important;
+    line-height: 2em;
+    font-size: 1.6em;
+}
+
+.watermark2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 18%;
+    padding: 20px;
+    box-shadow: 3px 5px 20px rgb(0, 167, 112, 255);
+    ;
+    justify-self: baseline;
+    background-color: rgb(21, 32, 43, 255) !important;
     line-height: 2em;
     font-size: 1.6em;
 }
