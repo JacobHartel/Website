@@ -60,10 +60,13 @@ body {
     padding: 10px;
     text-align: center;
     width: 60%;
+    color: black;
+    font-style: bold;
 }
 
 .intro h1 {
     margin-bottom: 10px;
+    margin-top: 10%;
 }
 
 .headImage img {
