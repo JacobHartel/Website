@@ -171,11 +171,8 @@ body {
 
 
 @media screen and (max-width: 800px) {
-    .intro, .update {
+    .intro, .update, .list {
       width: 100%; 
     }
 
-    #id{
-        height: 10% !important;
-    }
   }
