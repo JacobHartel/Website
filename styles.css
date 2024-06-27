@@ -168,3 +168,14 @@ body {
     line-height: 2em;
     font-size: 1.6em;
 }
+
+
+@media screen and (max-width: 800px) {
+    .intro, .update {
+      width: 100%; 
+    }
+
+    #id{
+        height: 10% !important;
+    }
+  }
