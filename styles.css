@@ -8,9 +8,7 @@ html {
 
 body {
     font-family: "Nanum Gothic Coding", monospace !important;
-    margin: auto 0;
-    padding: 0;
-    text-align: center;
+    
     min-height: 100vh;
     background-color: rgb(187, 188, 203) !important;
     color: rgb(0, 167, 112, 255) !important;
@@ -87,26 +85,7 @@ body {
     text-align: center !important;
 }
 
-.intro3 { /*This isn't updating on my website*/
-    font-size: 1.5em !important;
-    margin: 50px auto !important;
-    padding: 10px !important;
-    text-align: left !important;
-    width: 60% !important;
-    color: black !important;
-    font-style: bold !important;
-}
 
-.intro3 h2 { /*This isn't updating on my website*/
-    margin-bottom: 120px !important;
-    margin-top: 10% !important;
-    text-align: center !important;
-}
-
-.intro3 a { /*This isn't updating on my website*/
-    color: rgb(100, 160, 112, 230) !important;
-    text-decoration: none !important;
-}
 
 .headImage img {
     width: 40%;
