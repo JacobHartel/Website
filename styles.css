@@ -1,3 +1,5 @@
+/* <!--Why isn't this updating in github????--> */
+
 html {
     font-family: "Nanum Gothic Coding", monospace;
     font-style: bold;
@@ -69,7 +71,7 @@ body {
     margin-top: 10%;
 }
 
-.intro2 {
+.intro2 { /*This isn't updating on my website*/
     font-size: 1.5em !important;
     margin: 0 auto;
     padding: 10px;
@@ -79,13 +81,13 @@ body {
     font-style: bold;
 }
 
-.intro2 h1 {
+.intro2 h1 { /*This isn't updating on my website*/
     margin-bottom: 10px;
     margin-top: 10%;
     text-align: center;
 }
 
-.intro3 {
+.intro3 { /*This isn't updating on my website*/
     font-size: 1.5em !important;
     margin: 50px auto;
     padding: 10px;
@@ -95,13 +97,13 @@ body {
     font-style: bold;
 }
 
-.intro3 h2 {
+.intro3 h2 { /*This isn't updating on my website*/
     margin-bottom: 120px;
     margin-top: 10%;
     text-align: center;
 }
 
-.intro3 a {
+.intro3 a { /*This isn't updating on my website*/
     color: rgb(100, 160, 112, 230) !important;
     text-decoration: none !important;
 }
