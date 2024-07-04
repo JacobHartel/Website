@@ -1,4 +1,4 @@
-/* <!--Why isn't this updating in github????--> */
+/*Author: Jacob Hartel*/
 
 html {
     font-family: "Nanum Gothic Coding", monospace;
@@ -10,12 +10,12 @@ body {
     font-family: "Nanum Gothic Coding", monospace !important;
     
     min-height: 100vh;
-    background-color: rgb(187, 188, 203) !important;
+    background-color: rgb(215, 216, 224) !important;
     color: rgb(0, 167, 112, 255) !important;
 }
 
 #nav {
-    background-color: rgb(21, 32, 43, 255) !important;
+    background-color: rgb(215, 216, 43) !important;
 
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .intro {
-    font-size: 1.5em !important;
+    font-size: 1.8em;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
@@ -65,24 +65,47 @@ body {
 }
 
 .intro h1 {
-    margin-bottom: 10px !important;
-    margin-top: 10% !important;
+    margin-bottom: 10px ;
+    margin-top: 10%;
+    font-size: 3em;
 }
 
-.intro2 { /*This isn't updating on my website*/
-    font-size: 1.5em !important;
-    margin: 0 auto !important;
-    padding: 10px !important;
-    text-align: left !important;
-    width: 60% !important;
-    color: black !important;
-    font-style: bold !important;
+.interests {
+    text-align: left;
+    line-break: auto;
 }
 
-.intro2 h1 { /*This isn't updating on my website*/
+.intro2 { 
+    font-size: 1.5em ;
+    margin: 0 auto ;
+    padding: 10px;
+    text-align: left;
+    width: 60%;
+    color: black ;
+    font-style: bold;
+}
+
+.intro2 h2 { 
     margin-bottom: 10px !important;
     margin-top: 10% !important;
     text-align: center !important;
+    font-size: 3em;
+}
+
+.intro2 a{
+    color: rgb(100, 160, 112, 230) !important;
+    text-decoration: none !important;
+    font-size: 2em;
+
+}
+
+.intro2 a:hover{
+    color: rgb(50, 150, 100, 255) !important;
+    text-decoration: none !important;
+}
+
+.intro2 p{
+    padding-left: 5%;
 }
 
 
