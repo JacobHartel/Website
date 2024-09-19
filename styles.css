@@ -3,7 +3,7 @@
 html {
     font-family: "Nanum Gothic Coding", monospace;
     font-style: bold;
-    background-color: rgb(7, 7, 68) !important;
+    background-color: rgb(169, 169, 170) !important;
 }
 
 body {
@@ -297,21 +297,45 @@ body {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 990px) {
 
     .intro,
     .update,
     .list {
-        width: 100%;
+        width: 100vw;
+    }
+
+    html, body {
+        overflow-x: hidden;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .intro aside {
+        font-size: .5em;
+    }
+
+    #nav {
+        min-height: 230px;
+    }
+
+    #resume2 {
+        font-size: .7em !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container-fluid {
+        min-height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .addOn {
+        display: none;
     }
 
     #game-container {
-        position: relative;
-        width: 600px;
-        height: 300px;
-        margin: 20px auto;
-        background-color: rgb(169, 169, 170);
-        overflow: hidden;
+        display: none;
         
     }
 
